@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import styles from './TestApp.module.scss';
+import styles from './Snake.module.scss';
 
-const TestApp = () => {
+const Snake = () => {
   const boardWidth = 20;
   const boardHeight = 20;
 
@@ -150,4 +150,4 @@ const TestApp = () => {
   );
 };
 
-export default TestApp;
+export default Snake;

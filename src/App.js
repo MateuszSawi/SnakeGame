@@ -1,12 +1,12 @@
 import './App.css';
 import React from 'react';
-import TestApp from './components/TestApp';
+import Snake from './components/Snake';
 
 function App() {
 
   return (
     <div>
-      <TestApp />
+      <Snake />
     </div>
   );
 }
